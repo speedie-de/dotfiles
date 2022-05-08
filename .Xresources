@@ -1,42 +1,81 @@
-!! st resources
-! special
-*.foreground:             #e7e7e7
-*.background:             #202020
-*.cursorColor:            #e7e7e7
-! black
-*.color0:                 #262626
-*.color8:                 #737373
-! red
-*.color1:                 #ff3534
-*.color9:                 #ff4f4c
-! green
-*.color2:                 #35b723
-*.color10:                #82ff6e
-! yellow
-*.color3:                 #eae804
-*.color11:                #dfff52
-! blue
-*.color4:                 #362be4
-*.color12:                #5767ff
-! magenta
-*.color5:                 #fa9cf8
-*.color13:                #cf89cf
-! cyan
-*.color6:                 #4ed4d4
-*.color14:                #68efef
-! white
-*.color7:                 #bebebe
-*.color15:                #f7f5f5
-! alpha
-*.alpha:                  0.9
-! font
-*.font:                   Terminus:pixelsize=15.5:antialias=true:autohint=true;
+! st resources
+! COMMENT IF USING PYWAL
+special
+st.foreground:             #e7e7e7
+st.background:             #202020
+st.cursorColor:            #e7e7e7
+black
+st.color0:                 #262626
+st.color8:                 #737373
+red
+st.color1:                 #ff3534
+st.color9:                 #ff4f4c
+green
+st.color2:                 #35b723
+st.color10:                #82ff6e
+yellow
+st.color3:                 #eae804
+st.color11:                #dfff52
+blue
+st.color4:                 #362be4
+st.color12:                #5767ff
+magenta
+st.color5:                 #fa9cf8
+st.color13:                #cf89cf
+cyan
+st.color6:                 #4ed4d4
+st.color14:                #68efef
+white
+st.color7:                 #bebebe
+st.color15:                #f7f5f5
+alpha
+st.alpha:                  0.7
+font
+st.font:                   Terminus:pixelsize=15.5:antialias=true:autohint=true
+st.font2:                  JoyPixels:pixelsize=12:antialias=true:autohint=true
 
-!! dwm resources
+! UNCOMMENT IF USING PYWAL
+! special
+!*.foreground:             #e7e7e7
+!*.background:             #202020
+!*.cursorColor:            #e7e7e7
+!black
+!*.color0:                 #262626
+!*.color8:                 #737373
+!red
+!*.color1:                 #ff3534
+!*.color9:                 #ff4f4c
+!green
+!*.color2:                 #35b723
+!*.color10:                #82ff6e
+!yellow
+!*.color3:                 #eae804
+!*.color11:                #dfff52
+!blue
+!*.color4:                 #362be4
+!*.color12:                #5767ff
+!magenta
+!*.color5:                 #fa9cf8
+!*.color13:                #cf89cf
+!cyan
+!*.color6:                 #4ed4d4
+!*.color14:                #68efef
+!white
+!*.color7:                 #bebebe
+!*.color15:                #f7f5f5
+!alpha
+!*.alpha:                  0.7
+!font
+!*.font:                   Terminus:pixelsize=15.5:antialias=true:autohint=true
+!*.font2:                  JoyPixels:pixelsize=12:antialias=true:autohint=true
+
+! dwm resources
 dwm.nmaster:              1
 dwm.font:                 Terminus:size=8
+dwm.font2:                siji:size=8
+dwm.font3:                JoyPixels:size=8
 dwm.col_background:       #222222
-dwm.col_backgroundmid:    #222222
+dwm.col_backgroundmid:    #005577
 dwm.col_textnorm:         #bbbbbb
 dwm.col_textsel:          #eeeeee
 dwm.col_windowbordersel:  #eeeeee
@@ -68,22 +107,55 @@ dwm.mfact:                0.50
 dwm.startontag:           1
 dwm.gappx:                10
 dwm.rmaster:              0
-dwm.shell:                /bin/sh
+dwm.shell:                /bin/zsh
 dwm.sizeicon:             16
 dwm.spacingicon:          5
+dwm.status:               xshbar
+dwm.vertpad:              0
+dwm.sidepad:              0
 
-!! dmenu
+! dmenu
 dmenu.font:               Terminus:pixelsize=15.5:antialias=true:autohint=true;
 dmenu.background:         #222222
 dmenu.foreground:         #bbbbbb
 dmenu.selbackground:      #333333
 dmenu.selforeground:      #bbbbbb
 
-!! URXVT
-URxvt.font:               xft:Terminus:style=Mono:pixelsize=15.5:antialias=true:autohint=false
+! tabbed
+tabbed.font:              Terminus:size=5
+tabbed.color0:            #111111
+tabbed.color4:            #ffffff
+tabbed.color5:            #333333
+tabbed.color7:            #ffffff
+tabbed.color2:            #111111
+tabbed.color3:            #cc0000
+tabbed.tabwidth:          200
+tabbed.barheight:         18
+tabbed.shell:             /bin/sh
+
+! URXVT
 URxvt.scrollBar:          false
 URxvt.scrollBar_right:    false
 URxvt.clipboard.autocopy: true
 URxvt.iso14755:           false
 URxvt.cursorBlink:        true
-
+URxvt.foreground:         #e7e7e7
+URxvt.background:         #202020
+URxvt.cursorColor:        #e7e7e7
+URxvt.color0:             #262626
+URxvt.color8:             #737373
+URxvt.color1:             #ff3534
+URxvt.color9:             #ff4f4c
+URxvt.color2:             #35b723
+URxvt.color10:            #82ff6e
+URxvt.color3:             #eae804
+URxvt.color11:            #dfff52
+URxvt.color4:             #362be4
+URxvt.color12:            #5767ff
+URxvt.color5:             #fa9cf8
+URxvt.color13:            #cf89cf
+URxvt.color6:             #4ed4d4
+URxvt.color14:            #68efef
+URxvt.color7:             #bebebe
+URxvt.color15:            #f7f5f5
+URxvt.font:               xft:Terminus:pixelsize=15.5:antialias=true
