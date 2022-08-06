@@ -1,0 +1,112 @@
+app-editors/vim X -crypt -minimal -nls -terminal
+app-arch/libarchive -lz4 -lzma -iconv -e2fsprogs
+dev-util/cmake -ncurses
+net-misc/dhcpcd -embedded
+sys-fs/dosfstools -iconv
+app-shells/zsh -pcre
+app-crypt/rhash -nls
+app-editors/vim-core -crypt -minimal -nls
+media-libs/libglvnd X
+x11-base/xorg-server udev -minimal elogind
+sys-auth/elogind pam
+sys-auth/pambase elogind pam
+dev-vcs/git -iconv -perl
+www-client/links gpm
+media-libs/harfbuzz -cairo glib introspection
+x11-libs/cairo X
+dev-libs/nettle gmp
+sys-apps/systemd-utils udev
+media-libs/libvpx postproc
+www-client/firefox -gmp-autoupdate
+x11-libs/gtk+ -introspection
+gnome-base/librslv -introspection -vala
+gnome-base/librsvg -vala -gtk-doc
+media-video/ffmpeg -vulkan X xcb libdrm
+net-irc/weechat perl python lua -spell scripts -relay
+media-libs/gexiv2 introspection
+app-text/poppler cairo
+media-libs/gegl cairo
+net-libs/libsoup introspection
+dev-dotnet/gtk-sharp atk cairo gdk pango
+app-crypt/gcr introspection
+app-crypt/libsecret introspection
+x11-libs/gtk+ introspection
+dev-libs/atk introspection
+x11-libs/gdk-pixbuf introspection
+x11-libs/pango introspection
+media-gfx/imagemagick jpeg jpeg2k
+app-emulation/virtualbox qt5
+dev-qt/qtgui udev dbus
+dev-qt/qtwidgets dbus
+x11-libs/libxkbcommon X
+media-libs/libsdl X
+x11-libs/pango X
+app-text/xmlto text
+net-wireless/bluez udev
+dev-python/pygobject python_targets_python3_10
+dev-python/pycairo python_targets_python3_10
+x11-libs/libnotify introspection
+dev-python/cython python_targets_python3_10
+dev-python/gpep517 python_targets_python3_10
+dev-python/setuptools python_targets_python3_10
+dev-python/wheel python_targets_python3_10
+dev-python/packaging python_targets_python3_10
+dev-python/flit_core python_targets_python3_10
+dev-python/tomli python_targets_python3_10
+dev-python/pyparsing python_targets_python3_10
+dev-python/appdirs python_targets_python3_10
+dev-python/jaraco-text python_targets_python3_10
+dev-python/more-itertools python_targets_python3_10
+dev-python/nspektr python_targets_python3_10
+dev-python/ordered-set python_targets_python3_10
+dev-python/certifi python_targets_python3_10
+dev-python/setuptools_scm python_targets_python3_10
+dev-python/typing-extensions python_targets_python3_10
+dev-python/jaraco-context python_targets_python3_10
+dev-python/jaraco-functools python_targets_python3_10
+dev-python/installer python_targets_python3_10
+media-libs/gsound introspection
+gui-libs/libadwaita introspection
+gui-libs/gtk introspection
+media-libs/graphene introspection
+dev-python/dbus-python python_targets_python3_10
+dev-python/setproctitle python_targets_python3_10
+dev-python/python3-xapp python_targets_python3_10
+net-wireless/gnome-bluetooth introspection
+x11-libs/xapp introspection
+dev-python/psutil python_targets_python3_10
+dev-libs/libdbusmenu gtk3
+media-sound/pulseaudio-daemon dbus
+media-libs/libpulse X dbus
+app-arch/unzip natspec
+net-dns/dnsmasq script ipv6
+sys-apps/iproute2 -minimal
+app-emulation/libvirt-glib introspection
+net-libs/gtk-vnc introspection
+x11-libs/libva X
+dev-libs/libxml2 python_targets_python3_10 python
+dev-python/argcomplete python_targets_python3_10
+dev-python/libvirt-python python_targets_python3_10
+dev-python/requests python_targets_python3_10
+sys-libs/libosinfo introspection
+net-misc/spice-gtk introspection usbredir
+sys-apps/dbus X
+x11-libs/gtksourceview introspection
+x11-libs/vte introspection
+dev-python/charset_normalizer python_targets_python3_10
+dev-python/idna python_targets_python3_10
+dev-python/urllib3 python_targets_python3_10
+dev-python/PySocks python_targets_python3_10
+dev-python/six python_targets_python3_10
+media-libs/gstreamer introspection
+media-sound/cmus -mp4
+dev-libs/boost icu nls
+dev-qt/qtsingleapplication X
+sys-kernel/gentoo-sources experimental
+dev-python/numpy python_targets_python3_10
+dev-python/zstandard python_targets_python3_10
+media-video/ffmpeg xvid vpx vorbis theora opus
+dev-python/cffi python_targets_python3_10
+dev-python/pycparser python_targets_python3_10
+dev-python/ply python_targets_python3_10
+media-libs/opencolorio -opengl
